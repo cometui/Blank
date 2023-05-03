@@ -1,16 +1,16 @@
-import type { Plugin } from "vue";
+import type { Plugin } from 'vue'
+
+import Button from './components/Button/Button.vue'
 
 interface PluginOptions {}
 
-import Button from "./components/Button/Button.vue";
-
 const plugin: Plugin = {
   install(app, options: PluginOptions) {
-    app.component("cButton", Button);
+    app.component('CButton', Button)
   },
-};
+}
 
-export { Button };
+export { Button }
 
-export type { PluginOptions };
-export default plugin;
+export type { PluginOptions }
+export default plugin
