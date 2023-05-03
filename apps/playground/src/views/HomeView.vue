@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Button from '@blank/vue'
+import { Button } from "@blank/vue";
 </script>
 
 <template>
   <main>
-    <Button />
+    <Button> Hello world </Button>
   </main>
 </template>

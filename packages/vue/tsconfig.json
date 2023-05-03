@@ -1,5 +1,14 @@
 {
-  "extends": "@blank/tsconfig/vue-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
 }
