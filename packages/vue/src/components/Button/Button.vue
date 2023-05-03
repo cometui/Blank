@@ -1,5 +1,5 @@
 <template>
-  <button class="btn">
+  <button class="bg-primary">
     <slot />
   </button>
 </template>
