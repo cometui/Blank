@@ -3,7 +3,7 @@ export default {
   content: [
     './index.html',
     './src/**/*.{vue,js,ts,jsx,tsx}',
-    '../../packages/vue/**/*.{vue,js, xts,jsx,tsx}',
+    '../../packages/vue/**/*.{vue, js}',
   ],
   theme: {
     extend: {},
