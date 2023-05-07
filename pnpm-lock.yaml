@@ -26,8 +26,8 @@ importers:
         specifier: workspace:^
         version: link:../../packages/vue
       tsconfig:
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.3
+        version: 0.0.3
       vue:
         specifier: ^3.2.47
         version: 3.2.47
@@ -4900,8 +4900,8 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsconfig@0.0.1:
-    resolution: {integrity: sha512-niUm+6k+CDY/e2vHxy2o6VAJLWvbLzOGFMEgaJ+8x2MjslMK83g9LhFLxxWmBSeZDsI4Amk3bdtmT7WCpP+nuA==}
+  /tsconfig@0.0.3:
+    resolution: {integrity: sha512-KDCuEmEDpSgqOKiv+Ztv4y98vMqgjfwckiobMWgbgdJlFFxJwEqWHNohEcfzEAorGUQIgC8Gy/RgFuf3wWE72Q==}
     dependencies:
       glob-expand: 0.0.2
       js-yaml: 3.14.1
