@@ -5,7 +5,6 @@ import { Button } from '@blank/vue'
 <template>
   <main class="h-screen w-full">
     <Button> Hello world </Button>
-    <Button>hello world</Button>
     <div>
       <h1>test</h1>
       <h2>test</h2>

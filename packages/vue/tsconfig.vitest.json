@@ -4,6 +4,14 @@
   "compilerOptions": {
     "composite": true,
     "lib": [],
-    "types": ["node", "jsdom"]
+    "types": [
+      "node",
+      "jsdom"
+    ]
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "__dirname"
   }
 }

@@ -4,9 +4,12 @@ importers:
 
   .:
     devDependencies:
+      '@types/node':
+        specifier: ^18.14.2
+        version: 18.14.2
       eslint-config-custom:
         specifier: '*'
-        version: 0.0.0(eslint@8.34.0)(typescript@4.7.4)
+        version: 0.0.0(eslint@8.34.0)(typescript@5.0.2)
       husky:
         specifier: ^8.0.1
         version: 8.0.1
@@ -106,8 +109,8 @@ importers:
         specifier: ^0.34.1
         version: 0.34.1(rollup@3.21.3)(typescript@4.7.4)
       vite-plugin-dts:
-        specifier: ^1.7.1
-        version: 1.7.1(@types/node@18.14.2)(rollup@3.21.3)(vite@4.1.4)
+        specifier: ^2.0.0
+        version: 2.0.0(@types/node@18.14.2)(rollup@3.21.3)(vite@4.1.4)
       vue:
         specifier: ^3.2.41
         version: 3.2.47
@@ -2426,10 +2429,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-custom@0.0.0(eslint@8.34.0)(typescript@4.7.4):
+  /eslint-config-custom@0.0.0(eslint@8.34.0)(typescript@5.0.2):
     resolution: {integrity: sha512-kwCw78yisbgKdJBJ5qooPmpBYDphDfM2oxSROmtfOwBXBwXuRiSV3suO01W3mVLEFpmQZxMWd/qajKpJhkKSug==}
     dependencies:
-      eslint-config-next: 12.3.4(eslint@8.34.0)(typescript@4.7.4)
+      eslint-config-next: 12.3.4(eslint@8.34.0)(typescript@5.0.2)
       eslint-config-prettier: 8.8.0(eslint@8.34.0)
       eslint-plugin-react: 7.28.0(eslint@8.34.0)
     transitivePeerDependencies:
@@ -2439,7 +2442,7 @@ packages:
       - typescript
     dev: true
 
-  /eslint-config-next@12.3.4(eslint@8.34.0)(typescript@4.7.4):
+  /eslint-config-next@12.3.4(eslint@8.34.0)(typescript@5.0.2):
     resolution: {integrity: sha512-WuT3gvgi7Bwz00AOmKGhOeqnyA5P29Cdyr0iVjLyfDbk+FANQKcOjFUTZIdyYfe5Tq1x4TGcmoe4CwctGvFjHQ==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
@@ -2450,7 +2453,7 @@ packages:
     dependencies:
       '@next/eslint-plugin-next': 12.3.4
       '@rushstack/eslint-patch': 1.2.0
-      '@typescript-eslint/parser': 5.59.2(eslint@8.34.0)(typescript@4.7.4)
+      '@typescript-eslint/parser': 5.59.2(eslint@8.34.0)(typescript@5.0.2)
       eslint: 8.34.0
       eslint-import-resolver-node: 0.3.7
       eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.27.5)(eslint@8.34.0)
@@ -2458,7 +2461,7 @@ packages:
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.34.0)
       eslint-plugin-react: 7.32.2(eslint@8.34.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.34.0)
-      typescript: 4.7.4
+      typescript: 5.0.2
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
       - supports-color
@@ -2522,7 +2525,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.59.2(eslint@8.34.0)(typescript@4.7.4)
+      '@typescript-eslint/parser': 5.59.2(eslint@8.34.0)(typescript@5.0.2)
       debug: 3.2.7
       eslint: 8.34.0
       eslint-import-resolver-node: 0.3.7
@@ -2589,7 +2592,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.59.2(eslint@8.34.0)(typescript@4.7.4)
+      '@typescript-eslint/parser': 5.59.2(eslint@8.34.0)(typescript@5.0.2)
       array-includes: 3.1.6
       array.prototype.flat: 1.3.1
       array.prototype.flatmap: 1.3.1
@@ -5244,7 +5247,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.1.4(@types/node@18.14.2)
+      vite: 3.2.6(@types/node@18.14.2)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5255,8 +5258,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-dts@1.7.1(@types/node@18.14.2)(rollup@3.21.3)(vite@4.1.4):
-    resolution: {integrity: sha512-2oGMnAjcrZN7jM1TloiS1b1mCn42s3El04ix2RFhId5P1WfMigF8WAwsqT6a6jk0Yso8t7AeZsBkkxYShR0hBQ==}
+  /vite-plugin-dts@2.0.0(@types/node@18.14.2)(rollup@3.21.3)(vite@4.1.4):
+    resolution: {integrity: sha512-QzEkAyjV7FY8o1+nRIA8qL37TpQBUJbl9VnRNUGbsLYfFGsf9SfPtWVbkmw5pESZMjDJ8Pgfl+sHDXud5cUsYg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
@@ -5269,7 +5272,8 @@ packages:
       fast-glob: 3.2.12
       fs-extra: 10.1.0
       kolorist: 1.8.0
-      ts-morph: 16.0.0
+      magic-string: 0.29.0
+      ts-morph: 17.0.1
       vite: 4.1.4(@types/node@18.14.2)
     transitivePeerDependencies:
       - '@types/node'
@@ -5411,7 +5415,6 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.5.0
-      tinyspy: 1.1.1
       vite: 3.2.6(@types/node@18.14.2)
       vite-node: 0.31.0(@types/node@18.14.2)
       why-is-node-running: 2.2.2
