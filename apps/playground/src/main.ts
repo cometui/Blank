@@ -3,8 +3,7 @@ import blankvue from '@blank/vue'
 import App from './App.vue'
 import router from './router'
 
-import 'tailwindcss/tailwind.css'
-import './styles/tailwind.css'
+import '@blank/vue/style'
 
 const app = createApp(App)
 
