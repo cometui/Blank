@@ -1,6 +1,6 @@
 import type { Plugin } from 'vue'
 
-import Checkbox from './components/Checkbox/Checkox.vue'
+import Checkbox from './components/Checkbox/Checkbox.vue'
 import Button from './components/Button/Button.vue'
 
 interface PluginOptions {}
