@@ -14,7 +14,7 @@
   "dependencies": {
     "@blank/tailwindcss": "workspace:^",
     "@blank/vue": "workspace:^",
-    "tsconfig": "^0.0.1",
+    "tsconfig": "^0.0.3",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
