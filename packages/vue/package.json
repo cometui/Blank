@@ -32,8 +32,8 @@
   "dependencies": {
     "@babel/types": "^7.20.2",
     "@blank/tailwindcss": "workspace:^",
-    "@zag-js/checkbox": "^0.7.0",
-    "@zag-js/vue": "^0.7.0",
+    "@zag-js/checkbox": "^0.75.0",
+    "@zag-js/vue": "^0.75.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "vite-plugin-dts": "^1.7.1",
     "vue": "^3.2.41"
